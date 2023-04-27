@@ -7,12 +7,15 @@
   --primary-font: #404040;
   --secundary-font: #565656;
   --border-faint: #e4e4e4;
-  --footer-color: #e6e4df;
+  --footer-color: #e6e6e6;
 }
 
 @font-face {
   font-family: 'Poppins';
-  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype'),
-    url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype'),
-    url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
 }
