@@ -14,38 +14,33 @@ html {
 
 header {
   position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   width: 100%;
   height: 6rem;
-
   background-color: var(--primary-background);
   border-bottom: 1px solid var(--border-faint);
 }
 
 footer {
-  height: 100px;
-  background-color: #383838;
+  height: 12rem;
+  background-color: var(--footer-color);
 }
 
-nav ul {
+#menu ul {
   display: flex;
   list-style: none;
 }
 
-nav ul li {
+#menu ul li {
   width: 9.8rem;
   height: 6rem;
   transition: background-color 0.4s ease-in-out;
 }
 
-nav ul li:hover {
+#menu ul li:hover {
   background-color: var(--primary-hover);
 }
 
-nav ul li a {
+#menu ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,12 +52,16 @@ nav ul li a {
   color: var(--primary-font);
 }
 
+#footer-nav {
+  gap: 1rem;
+}
+
 #section-main {
   flex-grow: 1;
   background-color: var(--secundary-backroud);
 }
 
-#container {
+#main-container {
   width: 100vw;
   min-height: 100vh;
   max-height: 100%;
@@ -70,15 +69,18 @@ nav ul li a {
   flex-direction: column;
 }
 
+#contact-container {
+  gap: 1.4rem;
+}
+
 .flex {
   display: flex;
 }
-.flex-column {
+.column {
   display: flex;
   flex-direction: column;
 }
-.flex-center {
-  display: flex;
+.center {
   justify-content: center;
   align-items: center;
 }
@@ -87,13 +89,13 @@ nav ul li a {
   justify-content: space-between;
 }
 
-.content-center {
+.limit-content {
   width: 100%;
   max-width: 1200px;
 }
 
 .selected {
-  border-bottom: 2px solid var(--primary-font);
+  border-bottom: 2px solid #183b7c;
 }
 
 .logo {
@@ -109,5 +111,9 @@ nav ul li a {
   font-family: 'Poppins', sans-serif;
   font-size: 2rem;
   font-weight: bold;
+  color: var(--primary-font);
+}
+.subtitle {
+  font-family: 'Poppins', sans-serif;
   color: var(--primary-font);
 }

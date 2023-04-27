@@ -11,14 +11,14 @@
     <title>Início - Techfy</title>
   </head>
   <body>
-    <div id="container">
-      <header>
-        <div class="flex space-b content-center">
+    <div id="main-container">
+      <header class="flex center">
+        <div class="limit-content flex space-b">
           <div class="logo">
             <img src="./img/logo.png" alt="Tech blog logotipo" />
             <p>Techfy</p>
           </div>
-          <nav>
+          <nav id="menu">
             <ul>
               <li class="selected"><a href="#">Início</a></li>
               <li><a href="#">Tecnologia</a></li>
@@ -31,7 +31,16 @@
       <section id="section-main">
         <div>a</div>
       </section>
-      <footer></footer>
+      <footer class="flex center">
+        <div id="contact-container" class="limit-content flex column center">
+          <h2 class="subtitle contrast-text">Siga-nos nas redes sociais e fique por dentro das novidades!</h2>
+          <nav id="footer-nav" class="flex">
+            <a href="#"><img src="./img/github.png" /></a>
+            <a href="#"><img src="./img/facebook.png" /></a>
+            <a href="#"><img src="./img/twitter.png" /></a>
+          </nav>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
