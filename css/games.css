@@ -1,39 +1,37 @@
-@import url('./main.css');
+@import url("./main.css");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#section-main h2{
-    font-size: 2rem;
-    font-family: 'Poppins Medium', sans-serif;
+#section-main h2 {
+  font-size: 2rem;
+  font-family: "Poppins Medium", sans-serif;
 }
 
-#imgGame img{
-    width: 20rem;
-    align-items: center;
-    border-radius: 0.5rem;
+#imgGame img {
+  width: 20rem;
+  align-items: center;
+  border-radius: 0.5rem;
 }
 
-#game-container{
-    gap: 5rem;
+#game-container {
+  gap: 5rem;
 }
-.game-text-container{
-    gap: 4rem; 
+.game-text-container {
+  gap: 4rem;
 }
-.game-text-container p{
-    font-size: 1.5rem;
-    font-family: 'Poppins Medium', sans-serif;
+.game-text-container p {
+  font-size: 1.5rem;
+  font-family: "Poppins Medium", sans-serif;
+  text-align: justify;
 }
-.cardgame{
-    width: 22rem;
-    height: 44rem;
-    border: 2px solid var(--primary-font);
-    padding: 0.78rem;
-    border-radius: 0.5rem;
+.cardgame {
+  width: 22rem;
+  height: 44rem;
+  border: 2px solid var(--primary-font);
+  padding: 0.78rem;
+  border-radius: 0.5rem;
 }
-
-
