@@ -20,9 +20,21 @@
 #game-container {
   gap: 5rem;
 }
+
 .game-text-container {
   gap: 4rem;
 }
+
+.text-fig {
+  font-size: 0.9rem;
+  font-family: "Poppins Medium", sans-serif;
+}
+
+.sites-parceiros a {
+  font-size: 1.5rem;
+  font-family: "Poppins Medium", sans-serif;
+}
+
 .game-text-container p {
   font-size: 1.5rem;
   font-family: "Poppins Medium", sans-serif;
@@ -34,4 +46,8 @@
   border: 2px solid var(--primary-font);
   padding: 0.78rem;
   border-radius: 0.5rem;
+}
+.text-fig {
+  font-size: 0.9rem;
+  font-family: "Poppins Medium", sans-serif;
 }
