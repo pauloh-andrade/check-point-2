@@ -6,6 +6,7 @@
 }
 
 .topic-card {
+  min-width: 30rem;
   width: 30rem;
   height: 38rem;
   background-color: var(--primary-background);
