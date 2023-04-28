@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #255e97;
+  --secundary-color: #3d97f0;
+  --primary-background: #fff;
+  --primary-hover: #e6e6e6;
+  --secundary-backroud: #f3f2ef;
+  --primary-font: #404040;
+  --secundary-font: #565656;
+  --border-faint: #e4e4e4;
+  --footer-color: #e6e6e6;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+}
