@@ -1,1 +1,52 @@
 @import url('./main.css');
+
+#section-main h2 {
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary-font);
+  padding-top: 8rem;
+}
+
+#imgmobile img {
+  width: 40rem;
+  align-items: center;
+}
+
+#mobile-container {
+  gap: 5rem;
+}
+
+.mobile-text-container {
+  width: inherit;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.text-container {
+  width: 70rem;
+  gap: 15px;
+}
+
+.text-fig {
+  font-size: 0.9rem;
+  font-family: 'Poppins Medium', sans-serif;
+}
+
+.sites-parceiros a {
+  font-size: 1.5rem;
+  font-family: 'Poppins Medium', sans-serif;
+}
+
+.mobile-text-container p {
+  font-size: 1.5rem;
+  font-family: 'Poppins Medium', sans-serif;
+  text-align: justify;
+}
+.card-mobile {
+  width: 42rem;
+  padding: 0.78rem;
+}
+.text-fig {
+  font-size: 0.9rem;
+  font-family: 'Poppins Medium', sans-serif;
+}
