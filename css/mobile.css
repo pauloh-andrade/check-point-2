@@ -2,7 +2,8 @@
 
 #section-main h2 {
   font-size: 2rem;
-  font-family: 'Poppins Medium', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  color: var(--primary-font);
 }
 
 #imgmobile img {
