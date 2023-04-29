@@ -4,6 +4,7 @@
   font-size: 2rem;
   font-family: 'Poppins', sans-serif;
   color: var(--primary-font);
+  padding-top: 8rem;
 }
 
 #imgmobile img {
@@ -17,11 +18,12 @@
 
 .mobile-text-container {
   width: inherit;
+  flex-wrap: wrap;
   gap: 4rem;
 }
 
 .text-container {
-  width: 80rem;
+  width: 70rem;
   gap: 15px;
 }
 
